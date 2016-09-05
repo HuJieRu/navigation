@@ -1,0 +1,40 @@
+ul {
+  text-align: center;
+  list-style: none;
+  font-size: 14px;
+  height: 30px;
+  border-bottom: 10px solid #ff6600;
+  margin: 0;
+  padding: 20px 0 0 50px;
+}
+ul li {
+  float: left;
+}
+ul a {
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  display: block;
+  background-color: #cccccc;
+  line-height: 30px;
+  margin-bottom: 1px;
+  border-radius: 10px 10px 0 0;
+  color: #333;
+  -webkit-transition-property: width;
+  transition-property: width;
+  -webkit-transition-duration: .1s;
+  transition-duration: .1s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+}
+ul a.on,
+ul a:hover {
+  background-color: #ff6600;
+  color: #ffffff;
+  width: 160px;
+  line-height: 40px;
+  height: 40px;
+  margin-top: -10px;
+}

@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>verticalNavigation</title>
+	<link rel="stylesheet" href="css/vertical.css">
+</head>
+<body>
+	<ul id="hoo">
+		<li><a class="on" href="#" >首    页</a></li>
+		<li><a href="#">新闻快讯</a></li>
+		<li><a href="#">产品展示</a></li>
+		<li><a href="#">售后服务</a></li>
+		<li><a href="#">联系我们</a></li>
+	</ul>
+</body>
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script>
+/*$('a').hover(
+	function(){
+		$(this).stop().animate({
+			width:"160px"
+		},30);
+	},
+	function(){
+		$(this).stop().animate({
+			width:"100px"
+		},30);
+	}
+	);*/
+	/*var hoo=document.getElementById("hoo");
+	hoo.onmouseover=function(e){
+		var target=e.target;
+		var time=target.time;
+		
+			clearInterval(time);
+		if (target&&target.nodeName=="A") {
+			 time=setInterval(function(){
+				target.style.width=target.offsetWidth+8+"px";
+				if (target.offsetWidth>=160) {
+					clearInterval(time);
+				}
+			},30);
+		}
+		
+	}
+	hoo.onmouseout=function(e){
+		var target=e.target;
+		var time=target.time;
+		
+			clearInterval(time);
+		if (target&&target.nodeName=="A") {
+			 time=setInterval(function(){
+				target.style.width=target.offsetWidth-8+"px";
+				if (target.offsetWidth<=100)
+				 {
+
+					clearInterval(time);
+				}
+			},30);
+		}
+		
+		
+	}*/
+</script>
+</html>
